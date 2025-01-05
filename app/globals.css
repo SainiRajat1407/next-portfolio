@@ -42,7 +42,7 @@
     --font-size-small: 0.707rem;
     --font-size-smaller: 0.5rem;
 }
-.sans-font {
+* {
     font-family: 'Roboto', sans-serif;
   }
 
