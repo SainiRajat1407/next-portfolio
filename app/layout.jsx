@@ -16,9 +16,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-     
-      <body  className="flex flex-col items-center justify-center font-roboto"   >
 
+      <body  >
+        <div className="flex flex-col items-center justify-center font-mono" >
           <SummaryPage />
           <div className="heading-3 text-center mt-10 heading-font">
             Experience
@@ -33,8 +33,13 @@ export default function RootLayout({ children }) {
           </div>
           <EducationPage />
           <ContactPage />
+          
           <FooterPage />
-       
+
+        </div>
+
+
+
       </body>
     </html>
   );
