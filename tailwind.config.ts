@@ -14,6 +14,10 @@ const config: Config = {
             transform: "rotate(-360deg)",
           },
         },
+        
+      },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
       },
       animation: {
         "border-spin": "border-spin 7s linear infinite",

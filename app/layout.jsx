@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       </Head>
 
       <body  >
-        <div className="flex flex-col items-center justify-center sans-font" >
+        <div className="flex flex-col items-center justify-center font-roboto" >
           <SummaryPage />
           <div className="heading-3 text-center mt-10 heading-font">
             Experience
