@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
      
-      <body  className="flex flex-col items-center justify-center"  >
+      <body  className="flex flex-col items-center justify-center font-roboto"   >
 
           <SummaryPage />
           <div className="heading-3 text-center mt-10 heading-font">
