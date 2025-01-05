@@ -1,0 +1,116 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "jobTitle": "Junior Programmer",
+      "otherDetails": {
+        "startDate": "Jan 2023",
+        "endDate": "April 2023",
+        "company": "Justice Technology Services (SOLGEN)"
+      },
+      "description": [
+        "Provided company users with tech support for IT problems",
+        "Maintained knowledge of advances in information technology systems and applications.",
+        "Tracked and prioritized IT tickets and requests based on severity and potential business disruptions involved.",
+        "Assisted customers with various types of technical issues via email, live chat and telephone.",
+        "Promoted high customer satisfaction by resolving problems with knowledgeable  and friendly service",
+        "Asset Management and Asset Tracking"
+      ]
+    },
+    {
+      "id": 2,
+      "jobTitle": "Laptop and Classroom support Technologist",
+      "otherDetails": {
+        "startDate": "August 2023",
+        "endDate": "Current",
+        "company": "Sheridan College"
+      },
+      "description": [
+        "Provided exceptional customer service, assisting clients courteously and efficiently.",
+        "Exhibited String verbal and written communication skills with a high level of professionalism.",
+        "Effectively conveyed technical information to individuals with diverse backgrounds.",
+        "Demonstrated proficient knowledge of Windows 10 & 11 And MS Office 365.",
+        "Showcased expertise in Audio-Visual equipment, including projectors and microphones.",
+        "Acquired knowledge of current Android and IOS devices, providing comprehensive technical support."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "UI/UX realtor Application",
+      "description": [
+        "Made a user-centered prototype of a realtor application for Android/IOS as a part of a team of 4 members.",
+        "Designed the basic wireframe and later made its prototype using Adobe XD.",
+        "Made sign up, Home page, Home Screen, rent/sell tab along with animation and transitions",
+        "Documented the user requirements and the use cases as a part of the progress report.",
+        "Learned skills like team work, time management, communication, creativity and problem solving."
+      ],
+      "otherDetails": {
+        "link": "https://xd.adobe.com/view/23eb5991-4fb7-4296-bc8f-cff93bb6165b-76b8/",
+        "technologyUsed": "Adobe XD"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Sheridan Bagel Cart",
+      "description": [
+        "Made a GUI Application using Java Fx in NetBeans named Sheridan Shopping Cart.",
+        "Designed its basic layout in the Scene Builder and then coding it's to make its components and buttons functional",
+        "Used in OOP principles to make the code extensible and reusable.",
+        " Sharing insights and best practices within the team to foster a continuous learning environment.",
+        "Key Feature - Calculating the price, Saving the receipt and printing the receipt."
+      ],
+      "otherDetails": {
+        "technologyUsed": "Java Fx, NetBeans, Scene Builder"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Weather Application",
+      "description": [
+        "Made a Weather Application using JavaScript, HTML and CSS.",
+        "The data for the application is from OPENWeather API which is a Restful API",
+        "Used Bootstrap to make the Web application responsive."
+      ],
+      "otherDetails": {
+        "link": "https:///rajathadd.github.io/WeatherApp/",
+        "technologyUsed": "Java Script, HTML, CSS"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Takeaway Card Game",
+      "description": [
+        "Design a console interface that is easy to navigate and provides clear instructions to the user using JAVA",
+        "Implement clear and concise prompts to guide the player through each turn or level",
+        "Implement robust error handling and input validation to prevent unexpected crashes and provide helpful feedback to the user",
+        "Clearly communicate any errors or invalid inputs and guide the player on how to correct them."
+      ],
+      "otherDetails": {
+        "technologyUsed": "Java, NetBeans"
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "type": "Advanced Diploma",
+      "name": "Davis Campus, Sheridan College",
+      "location": "Brampton, Canada",
+      "passingYear": "2024",
+      "major": "Computer Science",
+      "gpa": "3.7"
+    },
+    {
+      "id": 2,
+      "type": "Secondary Education",
+      "name": "Parth Public Senior Secondary School",
+      "location": "Haryana, India",
+      "passingYear": "2020",
+      "major": "Science & Mathematics",
+      "gpa": "9.5"
+    }
+    
+  ]
+}

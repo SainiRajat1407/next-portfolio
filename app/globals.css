@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+@layer utilities {
+
+    /* Act as a border */
+    .card-wrapper {
+        @apply relative overflow-hidden rounded-2xl z-0;
+    }
+
+    /* Gradient */
+    .card-wrapper::before {
+        background: conic-gradient(#3d405b 0deg,
+                #e29578 0deg,
+                transparent 80deg);
+
+        @apply absolute left-[-25%] top-[-25%] h-[150%] w-[150%] animate-border-spin content-[''];
+    }
+
+    /* Body */
+    .card-content {
+        @apply absolute left-[1px] top-[1px] h-[calc(100%-1px)] w-[calc(100%-1px)] rounded-2xl ;
+    }
+}
+
+
+
+:root{
+    --primary-color :#e29578 ;
+    --secondary-color:#3d405b;
+    --font-size-h1 :8rem;
+    --font-size-h2 : 5.653rem;
+    --font-size-h3: 3.998rem;
+    --font-size-h4: 2.827rem;
+    --font-size-h5: 1.999rem;
+    --font-size-h6: 1.414rem;
+    --font-size-p: 1rem;
+    --font-size-small: 0.707rem;
+    --font-size-smaller: 0.5rem;
+}
+
+.heading-font {
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.paragraph-font {
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.primary-color{
+    color: var(--primary-color);
+}
+.primary-background{
+    background-color: var(--primary-color);
+}
+.primary-light-background{
+    background-color: #ffe8df;
+}
+
+.secondary-color{
+    color: var(--secondary-color);
+}
+.secondary-background{
+    background-color: var(--secondary-color);
+}
+.gradient-text {
+    background: linear-gradient(45deg, #e29578, #3d405b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.heading-6{
+    font-size: var(--font-size-h6);
+}
+.heading-5{
+    font-size: var(--font-size-h5);
+}
+.heading-4{
+    font-size: var(--font-size-h4);
+}
+.heading-3{
+    font-size: var(--font-size-h3);
+   
+}
+.heading-2{
+    font-size: var(--font-size-h2);
+    
+}
+.heading-1{
+    font-size: var(--font-size-h1);
+}
+.paragraph{
+    font-size: var(--font-size-p);
+    color : #2A272E;
+}
+.small{
+    font-size: var(--font-size-small);
+}
+.smaller{
+    font-size: var(--font-size-smaller);
+}
+
+.background-set {
+    background: linear-gradient(0deg, var(--primary-color), var(--secondary-color));
+
+}
+
+.expand {
+    animation: expand 1s forwards ease-in-out; 
+  }
+  @keyframes expand {
+    0% {
+      width: 192px; 
+    }
+    50% {
+      width: 100vw; 
+    }
+    100% {
+      width: 192px; 
+    }
+  }
